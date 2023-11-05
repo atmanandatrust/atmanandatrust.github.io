@@ -69,6 +69,11 @@
           <iframe id="vid_frame" src="https://www.youtube.com/embed/VtLV3RFEvdc" width="760" height="415" frameborder="0"></iframe>
         </div>       
 
+
+        <div id="lyricsContainer">
+          <!-- Lyrics will be displayed here -->
+        </div>
+
         <div>
           <div>
             <!--
@@ -81,19 +86,9 @@
             </div>
           </div>
         -->
-              <div class="vid-item">
-                <div class="thumb">
-                  <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/VtLV3RFEvdc?autoplay=1&rel=0&showinfo=0&autohide=1'">
-                  <img src="http://img.youtube.com/vi/VtLV3RFEvdc/0.jpg">
-                </div></div>
-                <div class="desc">
-                  Krishna Krishna mora Vina rada - Bhakta Vrunda
-                </div>
-              </div>
-          </div>
           <div class="vid-item">
                 <div class="thumb">
-                  <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/CJsbfZmQw8w?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(1)">
                   <img src="http://img.youtube.com/vi/CJsbfZmQw8w/0.jpg">
                 </div></div>
                 <div class="desc">
@@ -102,7 +97,26 @@
               </div>
                 <div class="vid-item">
                 <div class="thumb">
-                  <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/OrxKfsATd6s?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(7)">
+                  <img src="http://img.youtube.com/vi/7C9BZ79rTzE/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Saraswati Vandana
+                </div>
+              </div>
+              <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(0)">
+                  <img src="http://img.youtube.com/vi/VtLV3RFEvdc/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Krishna Krishna mora Vina rada - Bhakta Vrunda
+                </div>
+              </div>
+          </div>
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(2)">
                   <img src="http://img.youtube.com/vi/OrxKfsATd6s/0.jpg">
                 </div></div>
                 <div class="desc">
@@ -110,16 +124,61 @@
                 </div>
               </div>
 
-                <div class="vid-item">
+              <div class="vid-item">
                 <div class="thumb">
-                  <div class="vid-item" onClick="document.getElementById('vid_frame').src='https://www.youtube.com/embed/K2ued_H0eA4?autoplay=1&rel=0&showinfo=0&autohide=1'">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(3)">
                   <img src="http://img.youtube.com/vi/K2ued_H0eA4/0.jpg">
                 </div></div>
                 <div class="desc">
                   Rama Sri Rama - Bhakta Vrunda
                 </div>
               </div>
-
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(4)">
+                  <img src="http://img.youtube.com/vi/Clm7GEstPkI/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Rakshinchave Rajarajeshwari Devi
+                </div>
+              </div>
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(5)">
+                  <img src="http://img.youtube.com/vi/w-Y-UrkFvYI/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Adi Nene Adi Nene
+                </div>
+              </div>
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(6)">
+                  <img src="http://img.youtube.com/vi/VtspGmuEoK4/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Guru Stuthi
+                </div>
+              </div>
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(8)">
+                  <img src="http://img.youtube.com/vi/5mmi5iv_AUQ/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Idi Manchi Samayamu
+                </div>
+              </div>
+              </div>
+                <div class="vid-item">
+                <div class="thumb">
+                  <div class="vid-item" onClick="changeVideoAndLyrics(9)">
+                  <img src="http://img.youtube.com/vi/7Re7g5gjTXg/0.jpg">
+                </div></div>
+                <div class="desc">
+                  Sri Rukmambeshwari Mukti Kantha
+                </div>
+              </div>
           </div>
 
        </div>
@@ -151,4 +210,59 @@ $(document).ready(function () {
 </div><div id="zsada-9363512521203"><div class="zsad" style="height: 25px ! important; padding: 20px 0px; font-size: 13px; font-family: Arial, Helvetica, sans-serif;position: fixed;width: 100%;bottom: 0;z-index: 1000000;background: #0E2431;"><p align="center"> <a href="http://www.credise.com/?utm_source=footer-banner&amp;utm_medium=ad&amp;utm_campaign=footer-banner" rel="nofollow" style="cursor: pointer;"> <span style="vertical-align: top; color: #a4becc;">Designed & maintained by Credise</span><img height="16px" style="padding: 0px 10px 0px 5px;border:0px;"></a></p></div></div>
 
 <div id="carouselCont" style="display:none"><div class="zs-slideshow-right-arrow"></div><div class="zs-slideshow-left-arrow"></div><div class="themeSlideshowOuterContainer"> <span class="themeSlideshowInnerContainer"> <span class="zs-slideshow-control"></span> </span> </div></div><div id="carouselCont" style="display:none"><div class="zs-slideshow-right-arrow"></div><div class="zs-slideshow-left-arrow"></div><div class="themeSlideshowOuterContainer"><span class="themeSlideshowInnerContainer"><span class="zs-slideshow-control"></span></span></div></div><div id="footerBar" style="display:none;font: 13px Arial,Helvetica,sans-serif; overflow: hidden; background:rgba(255, 255, 255, 0.3); padding: 3px 5px;"><!--zp:branding--><script src="./Home_files/zsad.js.download" data-zsada-id="5530073138255"></script><!--/zp:branding--><span style="float: left; display: none; margin-top: 3px; padding: 0px 10px 0px 0px;" id="mobileSite"><a onclick="setCookie(&#39;userView&#39;,&#39;mobile&#39;,&#39;&#39;,&#39;/&#39;);" style="text-decoration: none;line-height: 1.5;color:#259A56;" href="./mobile/">Mobile Site</a></span></div><div style="clear:both"></div>
-</body></html>
+
+    <script>
+        const videoData = [
+            {
+                videoURL: "https://www.youtube.com/embed/VtLV3RFEvdc",
+                lyrics: "Krishna Krishna Mora Vina Raada I<br>Keshava Shreedhara Madhava Raava II Krishna II<br><br>Karunaleni Kaaranamemi<br>Naasantoshamu Paripoornamu I<br>Sarva Gatiyu Nivegada Shree II Krishna II<br><br>Parama Purusha Karunyanidi<br>Kaavaga Raavaa Kaanchaga Levaa<br>Tadamu Cheyaka Kaapaadumu Shree II Krishna II<br><br>Antaratmavu Aadimurtiyu<br>Atmaanandavu Vedamurtiyu<br>Shaanta Nilaya Shaashwithananda Shree II Krishna II",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/CJsbfZmQw8w",
+                lyrics: "Hari hari Ganapati – Aadhi Shivan Ganapati<br>Hari hari Ganapati – Aadhi Shivan Ganapati<br>Eri eri Ganapati – Ekantha Ganapati<br>Eri eri Ganapati – Ekantha Ganapati<br>Ayung Ganapati – Sauvung Ganapati<br>Ayung Ganapati – Sauvung Ganapati<br>Sri yung Ganapati – Vala Ganapati<br>Sri yung Ganapati – Vala Ganapati<br>Vava Ganapati Vava Ganapati<br>Vava Ganapati Vava Ganapati –<br>Sarvalokamum Sarva janangulum<br>Sarvalokamum Sarva janangulum –<br>Unn kay vasam pol enn kay vashamay<br>Unn kay vasam pol enn kay vashamay<br>Nirka pat pat swaha Nirka pat pat swaha<br>Hari hari Ganapati – Aadhi Shivan Ganapati<br>Eri eri Ganapati – Ekantha Ganapati<br>Hari hari Ganapati – Aadhi Shivan Ganapati",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/OrxKfsATd6s",
+                lyrics: "Ra Ra Sriranga Gururanga Ranga<br>Na Ranga Kavi Ponga Nannelukora (Ra Ra)<br><br>Pagada Samsaramuna Chikki Nochchi<br>Agapadani Maargambu Pondanasinchi<br>Shiganekki Vacchi Thini Siggu Maani<br>Akata Akata Nannudhaarinchi Elukona (Ra Ra)<br><br>Kanu Bhommala Maddhya Pranavamai<br>Annu Vannuvu Ladhikaari Aadhaari Vai<br>Panipathiyu Nivai Prakashivai<br>Thanu Prakasha Varddillu Prabhuvai (Ra Ra)<br><br>Gagana Saadrushyambagu Nimahima<br>Pogada Tharama Hariharadula Kaina<br>Nigama Gochaara Nitya Paripurna<br>Agamaanta Sanchaara Guru Atmananda (Ra Ra)<br><br>Neevu Nenanu Nonaru Ledu Ledu<br>Bhaava Panchakambu Brathi Maali Poi<br>Bhaava Meriginavaadu Bhagavantu Doyi<br>Seva Thelasina Krishna Nelu Kona (Ra Ra)",            
+              },
+            {
+                videoURL: "https://www.youtube.com/embed/K2ued_H0eA4",
+                lyrics: "Rama Sri Rama Guruparano Dhama<br>Shyama Sudara Vedaa Teetanaama II pa II<br>Mamaatma Sarva Sambhootaatma Soma<br>Uma Shankara Geetartha Naama II a pa II<br><br>Sarasiruhu Swara Naadanu Saara<br>Parama Paraveda Karuna Samudra I<br>Gurutaara Kaudhaara Sreenivasa<br>Aripranavaakshara Vedanaama II Rama II<br><br>Gunanidhi Gunatita Gnyanaananda<br>Pranava Prajvala Tanmaatra Girisha I<br>Ganapatih Shri Guru Atmaananda Shiri<br>Krishna Dhyaana Poornaananda Naama II Rama II",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/Clm7GEstPkI",
+                lyrics: "Rakshinchave Rajarajeshwari Devi<br>Vishnu Vakshastala Nivaasi Na Thalli ||<br>Baktula Nishta Vishishta Advaita Devi<br>Nishta Kavinchina Vaari Muktaamba Thalli ||<br><br>Mumurthulaku Moola Meriginchina Devi<br>Sammatambagu Naalo Nelakonna Thalli |<br>Ammalamma Lakanna Atamakula Devi<br>Chinmaya Mai Andarilo Alakani Thalli || Rakshincha ||<br><br>Sahasraaramuna Jyoti Nandinchina Devi<br>Viharinchi Taandavamuna Paalgonna Thalli |<br>Sahanambu Broomadhyamuna Kalipina Devi<br>Ahamadhyantamaananda Micchina Thalli || Rakshincha ||<br><br>Tipputalu Maaninchi Kuppatinchina Devi<br>Reppa Paatuna Triputi Kandinchina Thalli<br>Muppuramu Mudayinchu Kaamaakshi Devi<br>Cheppa Shakhyam Shri Maheshwari Thalli || Rakshincha ||<br>",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/w-Y-UrkFvYI",
+                lyrics: "Adi nene Adi nene Yanumaa<br>Adinene Brahmamu Anuma<br>Jyothini Antaratmalo Ganumaa II Adi II<br><br>Sompuga Pranamunu Bigajesi<br>Thampuga Bhroomadhyamuna Ravi Chandrulu<br>Nimpuga Tripootamuna Ganumaa II Adi II<br><br>Bindu Naadamu Laikyapu Jaada<br>Andhi Chedara Nirmala Mai Nilachi<br>Sandinchi Thelisi Jyoti Prabhaganumaa II Adi II<br><br>Kannu Naalige Chevulanu Marachi<br>Thannu Thaanerigi Krishnadanuchu<br>Vennala Raaja Atmuni Ganumaa II Adi II",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/VtspGmuEoK4",
+                lyrics: "Raga – Bilhari – Jampathala<br>Entha ninnu vedinanu chaladhayya |<br>Antharangamuna nindinagamyavayya || Entha ||<br><br>Thalli thandri guru dhayvamu neeve<br>Kallagaani brahmamu neeve |<br>Sallali thambuga sakshiga velige<br>Alakani thandava moorthiyu neeve || Entha ||<br><br>Ninnu vidanadina dhikkevaru deva<br>Pannaga shayana poonami chandraa |<br>Poornaanu geethaa parama purusha<br>Munivarenya karunantha rangaa || Entha ||<br><br>Satvamaya roopa samrakshanaa nanda<br>Matthuna mariginci palinchina daatha|<br>Prathipala menchani dasa krishnuni<br>Shruthi prajwala gamya atmanandaa || Entha ||<br>",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/7C9BZ79rTzE",
+                lyrics: " ",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/5mmi5iv_AUQ",
+                lyrics: "Idi manchi samayamu Shri Ramachandra<br>Padma nabha neevu nannelukona II Idi II<br><br>Guruni agnya che guriyu thelisinadi<br>Paramavakili thaanukerukainadi<br>Naarulu surulanutta bhaava mettidhi<br>Karuvu dharinchinaattu bhaasamainadi II Idi II<br><br>Vasudeva smarana vaasilone kalise<br>Bhyaasa mettidhi abhyaasa mettidhi<br>Desi vaasu guru aatmanandaa judu<br>Daasa Krishnuni kachi rakshinchutaku II Idi II",
+            },
+            {
+                videoURL: "https://www.youtube.com/embed/7Re7g5gjTXg",
+                lyrics: "Sri Rukmambeshwari Mukti Kantha<br>Nirupama Jyoti Neevamma || pa ||<br>Dharanilopala Dasathvamunandi<br>Dhaarini Ganugona Vachithinamaa || pa ||<br><br>Paapala lopala Paramai Nilachina<br>Gopyamemani Thelupamma |<br>Tapatrayam Enchaka Sadhana Lona<br>Ripubadalu Vidipinchammaa || Sri ||<br><br>Para Aparamai Nilachina Brahmani<br>Neruga Branthinchithi Nenamma |<br>Karugaka Veruvaka Niluchina Nityuni<br>Sthiramuga Kana Valenammaa || Sri ||<br><br>Gnyanaanandula Gyanapu Erukanu<br>Vyana Munandai Kyinchithi Namma |<br>Swaanubhava Saadaku Landarilo<br>Dhyana Samaadhini Andhithi Nammaa || Sri ||<br><br>Vedaatheethamay Athmaanandalo<br>Naadaathambhai Veligithinamma |<br>Paadambujambunu Andina Krishnudu<br>Sadhaanandudai Nanamma || Sri ||<br>",
+            },
+
+
+                    ];
+        function changeVideoAndLyrics(index) {
+          const iframe = document.getElementById("vid_frame");
+          iframe.src = videoData[index].videoURL;
+          document.getElementById("lyricsContainer").innerHTML = videoData[index].lyrics;
+      }
+
+    </script>
+</body>
+</html>
+
