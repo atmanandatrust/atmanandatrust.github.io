@@ -22,6 +22,12 @@
     margin-left:4%;
     padding-bottom: 20px;
 }
+#lyricsContainer {
+    font-family: 'Verdana, Geneva', sans-serif; /* Use the custom font with a fallback */
+    font-size: 2; /* Adjust the font size as needed */
+    line-height: 1.5; /* Adjust the line height as needed */
+    /* Add any other styling you want for the lyrics container */
+}
 
 .vid-list {
     width: 1344px;
